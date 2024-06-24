@@ -7,7 +7,7 @@ export const navItems = [
   { name: "Experience", link: "/experience" },
   { name: "Projects", link: "/project" },
   { name: "Testimonials", link: "/#testimonials" },
-  { name: "Contact", link: `mailto:${contactInfo.email}` },
+  { name: "Contact", link: `https://calendly.com/thompsonnaiducm1343/30min?month=2024-06` },
 ];
 
 export const gridItems = [
@@ -174,13 +174,13 @@ export const workExperience = [
     title: "Software Engineer Intern - CRD",
     location: "Burlington, MA",
     duration: "January 2024 - June 2024",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Contributed to the development and enhancement of the Charles River Investment Management System (CRIMS), a comprehensive front- and middle-office platform.",
     className: "md:col-span-2",
     thumbnail: "/crd.png",
     companyURL: "https://www.crd.com",
-    details: [`Built 4 gRPC services for an investment management system, enhancing service communication and performance`,
-      `Elevated code coverage by crafting unit tests, improving it from <strong>80% to 90%</strong>, significantly boosting code reliability and maintainability`,
-      `Innovated and established a CI/CD deployment pipeline, streamlining deployment processes and reducing deployment time by 40%`
+    details: [`Built 4 gRPC services for an Charles River Investment Management, enhancing service communication and performance`,
+      `Elevated code coverage by crafting unit tests, increasing it by <strong>20%</strong>, significantly boosting code reliability and maintainability`,
+      `Actively addressed and resolved code bugs to enhance system stability and performance`
     ]
   },
   {
@@ -189,7 +189,7 @@ export const workExperience = [
     title: "Senior Software Engineer - Quantiphi",
     duration: "October 2020 - September 2022",
     location: "Mumbai, India",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    desc: "Led a team to develop a vendor onboarding portal for a fleet management system, including custom automation workflows",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/quantiphi.png",
     companyURL: "https://www.quantiphi.com",
@@ -203,7 +203,7 @@ export const workExperience = [
 
     duration: "June 2022 - October 2022",
     location: "Mumbai, India",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    desc: "Revamped a monolithic architecture into a microservices-based architecture for the core currency ordering system, leveraging Node.js and AWS services",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/travelex.png",
     companyURL: "https://www.travelex.com",
@@ -212,10 +212,10 @@ export const workExperience = [
   {
     id: 4,
     name: "TIAA",
-    title: "Softare Analyst - TIAA",
+    title: "Software Analyst - TIAA",
     duration: "July 2018 - June 2022",
     location: "Mumbai, India",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    desc: "Developed a web-based wealth management tool for TIAA advisors to generate customized investment plans for high-net-worth clients, based on their needs and preferences.",
     className: "md:col-span-2",
     thumbnail: "/tiaa.png",
     companyURL: "https://www.tiaa.org",
